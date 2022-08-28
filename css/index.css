@@ -6,6 +6,7 @@
 body {
   overflow-x: hidden;
   overflow-y: scroll; 
+  width: 100vw;
 }
 /* navigation bar */
 nav {
