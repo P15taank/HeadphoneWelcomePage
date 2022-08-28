@@ -4,25 +4,26 @@
 
 }
 body {
-  overflow: hidden; /* Hide scrollbars */
+  overflow-x: hidden;
+  overflow-y: scroll; 
 }
 /* navigation bar */
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: relative;
+  position: absolute;
   top: 0px;
-  left: 100px;
+  left: 8.625rem;
   width: 90%;
 }
 .nav-items {
   display: flex;
   justify-content: space-around;
   width: 30%;
-  height: 80px;
+  height: 5rem;
   font-weight: 300;
-  font-size: 22px;
+  font-size: 1.375rem;
   text-decoration: none;
 }
 .nav-items :hover {
@@ -36,81 +37,85 @@ nav {
 
 .left-section {
   position: absolute;
-  top: 150px;
-  left: 200px;
+  top: 9.375rem;
+  left: 12.5rem;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 200;
 }
 h3 img {
-  height: 40px;
+  height: 2.5rem;
 }
 h1 {
-  font-size: 50px;
+  font-size: 3.125rem;
   font-weight: 900;
 }
 .sub-headlines {
   position: relative;
-  left: 60px;
+  left: 3.75rem;
 }
 .sub-headline img {
   background-color: #fe5e35;
-  border-radius: 15px;
+  border-radius: 0.938rem;
 }
 .sub-headline {
-  font-size: 25px;
+  font-size: 1.563rem;
   font-weight: 100;
 }
 h5 img {
-  height: 25px;
-  width: 25px;
+  height: 1.563rem;
+  width: 1.563rem;
 }
 /*left section text */
 .text {
   position: relative;
-  top: 15px;
+  top: 0.938rem;
   text-align: justify;
   color: rgb(170, 163, 163);
   width: 600px;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 /* right section */
 .right-section {
   position: absolute;
-  top: 150px;
+  top: 9.375rem;
   right: 0px;
 }
 
 /* targetting headphone img */
+.headphone-div
+{
+  display: flex;
+}
 .headphone-div :last-child {
   position: absolute;
   top: 0px;
-  right: 160px;
+  right: 10rem;
   z-index: -1;
-  height: 500px;
+  height:31.25rem;
 }
 /* targetting discount img */
 .discount {
   position: absolute;
-  top: 280px;
-  right: 550px;
-  height: 140px;
+  top: 17.5rem;
+  right: 35rem;
+  height: 8.75rem;
 }
 
 .discount-content :first-child {
   position: absolute;
-  top: 300px;
-  right: 600px;
+  top: 18.75rem;
+  right:37.5rem;
   color: #ffffff;
 }
 
 .discount-content :last-child {
   position: absolute;
-  top: 295px;
-  right: 590px;
+  top: 18.438rem;
+  right: 36.875rem;
   z-index: 1;
   color: #ffffff;
 }
@@ -118,16 +123,16 @@ h5 img {
 /* creting dots */
 .dots {
   position: absolute;
-  top: 490px;
-  right: 345px;
-  height: 30px;
-  width: 150px;
+  top: 30.625rem;
+  right: 21.563rem;
+  height: 1.875rem;
+  width:9.375rem;
   display: flex;
   justify-content: space-around;
 }
 .dot {
-  height: 25px;
-  width: 25px;
+  height: 1.563rem;
+  width: 1.563rem;
   border-radius: 50%;
 }
 .yellow-dot {
@@ -143,26 +148,25 @@ h5 img {
 }
 
 /* right side button */
-.action-btn
-{
-  position: relative;
-  top: 550px;
-  right: 350px;
-  border-radius: 25px;
-  background-color: #fe5e35;
-  height: 47px;
-  width: 158px;
-  border-style: none;
-  color: #ffffff;
-  font-size: 20px;
-}
 .action-btns
 {
   display: flex;
   justify-content: space-around;
-  width: 400px;
+  width: 25rem;
   position: absolute;
    top: 0px;
-   left: 350px;
-   
+   left: 21.875rem;  
+}
+.action-btn, .action-btn1
+{
+  position: relative;
+  top: 35rem;
+  right: 21.875rem;
+  border-radius: 1.563rem;
+  background-color: #fe5e35;
+  height: 2.938rem;
+  width: 9.875rem;
+  border-style: none;
+  color: #ffffff;
+  font-size: 1.25rem;
 }
