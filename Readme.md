@@ -1,5 +1,5 @@
 # Pratiksha Taank
-![Badge](https://img.shields.io/badge/Responsive-No-red)
+![Badge](https://img.shields.io/badge/Mobile%20Responsive-Yes-brightgreen)
 ![Badge](https://img.shields.io/badge/Live-Yes-brightgreen)
 ***
 ## Technology Used
@@ -7,8 +7,12 @@
 - CSS
 ## Screenshot
 ![Project 7](./images/p7.png)
+
+### Mobile Responsive
+![Responsive](./Project%207-%20Mobile%20Responsive.gif)
 ## What I have learn in this project
 - Learned flex box all conceps and tried to implement it in this project
+- Learn about Media Query.
 ## Time Spent
 I spent 4 hours to complete this project
 ## Live Link
