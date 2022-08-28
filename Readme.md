@@ -9,7 +9,7 @@
 ![Project 7](./images/p7.png)
 
 ### Mobile Responsive
-![Responsive](./Project%207-%20Mobile%20Responsive.gif)
+![Responsive](mobile.gif)
 ## What I have learn in this project
 - Learned flex box all conceps and tried to implement it in this project
 - Learn about Media Query.
