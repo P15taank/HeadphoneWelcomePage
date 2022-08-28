@@ -1,0 +1,85 @@
+@media screen and (max-width: 500px) {
+  * {
+    font-family: "PT Sans Narrow", sans-serif;
+  }
+  body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* overflow: hidden; */
+  }
+  /* navigation bar */
+  nav {
+    display: none;
+  }
+  .nav-items {
+    display: none;
+  }
+  /* logo */
+  .logo {
+    width: 6rem;
+    margin-left: 0px;
+  }
+
+  /* actionn images */
+  .action {
+    display: none;
+  }
+  /* intro */
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+
+  .left-section {
+    position: relative;
+    top:38.75rem;
+    left: 1rem;
+  }
+  .text {
+    width: 80%;
+    margin-top: 0px;
+    margin-bottom: 1.875rem;
+  }
+
+  /* right section */
+  .right-section {
+    position: absolute;
+    top: 3.75rem;
+    left: 5rem;
+  }
+
+  .dots 
+  {
+    left: 1.875rem;
+  }
+
+  .action-btn1
+  {
+    top: 2.813rem;
+    left: 1.875rem;
+  }
+  .action-btns
+  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+      margin-top: 1rem;
+      margin-left: 2.9rem;
+      padding: 2rem;
+  }
+  .action-btn
+  {
+    margin-top: 1rem;
+  }
+  .headphone-div :first-child, .discount-content
+  {
+    display: none;
+  }
+  .headphone-div :last-child {
+    position: relative;
+    top: 0px;
+    left: 0px;
+   width: 80%;
+}
+}
