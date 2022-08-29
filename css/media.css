@@ -44,7 +44,7 @@ h3 img {
 h1 {
   font-size: 3.125rem;
   font-weight: 900;
-  width: 80%;
+  width: 100%;
 }
 .sub-headlines {
   position: relative;
@@ -113,7 +113,7 @@ h5 img {
 .dots {
   position: absolute;
   top: 30.625rem;
-left: 80px;
+left: 50px;
   height: 1.875rem;
   width:9.375rem;
   display: flex;
@@ -140,7 +140,7 @@ left: 80px;
 .action-btn
 {
   position: relative;
-  top: 36rem;
+  top: 40rem;
   left: 0rem;
   border-radius: 1.563rem;
   background-color: #fe5e35;
@@ -154,7 +154,7 @@ left: 80px;
 .action-btn1
 {
   top: 2.813rem;
-  left: 80px;
+  left: 50px;
   width: 200px;
 }
 
