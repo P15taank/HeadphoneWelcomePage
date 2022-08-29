@@ -1,86 +1,165 @@
 @media screen and (max-width: 500px) {
-  * {
-    font-family: "PT Sans Narrow", sans-serif;
-  }
-  body {
-/* overflow-x: hidden; */
-    /* overflow-y: scroll;
-    width: 100vw; */
-    /* overflow: hidden; */
-  }
-  /* navigation bar */
-  nav {
-    display: none;
-  }
-  .nav-items {
-    display: none;
-  }
-  /* logo */
-  .logo {
-    width: 6rem;
-    margin-left: 0px;
-  }
+  * 
+{
+  font-family: "PT Sans Narrow", sans-serif;
 
-  /* actionn images */
-  .action {
-    display: none;
-  }
-  /* intro */
-  .intro-section {
-    display: flex;
-    flex-direction: column;
-  }
- 
-
-  .left-section {
-    position: relative;
-    top:38.75rem;
-    left: 1rem;
-  }
-  .text {
-    width: 80%;
-    margin-top: 0px;
-    margin-bottom: 1.875rem;
-  }
-
-  /* right section */
-  .right-section {
-    position: absolute;
-    top: 3.75rem;
-    left: 5rem;
-  }
-
-  .dots 
-  {
-    left: 1.875rem;
-  }
-
-  .action-btn1
-  {
-    top: 2.813rem;
-    left: 1.875rem;
-  }
-  .action-btns
-  {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-      margin-top: 1rem;
-      margin-left: 2.9rem;
-      padding: 2rem;
-  }
-  .action-btn
-  {
-    margin-top: 1rem;
-  }
-  .headphone-div :first-child, .discount-content
-  {
-    display: none;
-  }
-  .headphone-div :last-child {
-    position: relative;
-    top: 0px;
-    left: 0px;
-   width: 80%;
 }
+body {
+  overflow-x: hidden;
+  overflow-y: auto; 
+
+}
+/* navigation bar */
+nav {
+  display: none;
+}
+.nav-items {
+  display: none;
+}
+/* intro */
+.intro-section {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 100%;
+}
+
+.left-section {
+  position: absolute;
+    top:40rem;
+    left: 1rem;
+    width: 90%;
+    
+}
+
+h3 {
+  font-size: 1.875rem;
+  font-weight: 200;
+  width: 100%;
+}
+h3 img {
+  height: 2.5rem;
+
+}
+h1 {
+  font-size: 3.125rem;
+  font-weight: 900;
+  width: 80%;
+}
+.sub-headlines {
+  position: relative;
+  left: 3.75rem;
+  width: 60%;
+  /* text-align: center; */
+}
+.sub-headline img {
+  background-color: #fe5e35;
+  border-radius: 0.938rem;
+}
+.sub-headline {
+  font-size: 1.563rem;
+  font-weight: 100;
+}
+h5 img {
+  height: 1.563rem;
+  width: 1.563rem;
+
+}
+/*left section text */
+.text {
+  position: relative;
+  top: 0.938rem;
+  color: rgb(170, 163, 163);
+  font-size: 1.125rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* right section */
+.right-section {
+  position: absolute;
+  top: 3.75rem;
+  left: 5rem;
+  width: 80%;
+  
+}
+
+/* targetting headphone img */
+.headphone-div
+{
+  display: flex;
+}
+.headphone-div :last-child {
+  position: relative;
+  top: 0px;
+  right: 0rem;
+  z-index: -1;
+ width: 80%;
+}
+/* targetting discount img */
+.discount {
+ display: none;
+}
+
+.discount-content :first-child {
+  display: none;
+}
+
+.discount-content :last-child {
+  display: none;
+}
+
+/* creting dots */
+.dots {
+  position: absolute;
+  top: 30.625rem;
+left: 80px;
+  height: 1.875rem;
+  width:9.375rem;
+  display: flex;
+  justify-content: space-around;
+}
+.dot {
+  height: 1.563rem;
+  width: 1.563rem;
+  border-radius: 50%;
+
+}
+
+/* right side button */
+.action-btns
+{
+  display: flex;
+  justify-content: space-around;
+  width: 25rem;
+  position: absolute;
+   top: 0;
+   left: 0;  
+ 
+}
+.action-btn
+{
+  position: relative;
+  top: 36rem;
+  left: 0rem;
+  border-radius: 1.563rem;
+  background-color: #fe5e35;
+  height: 2.938rem;
+  width: 9.875rem;
+  border-style: none;
+  color: #ffffff;
+  font-size: 1.25rem;
+}
+
+.action-btn1
+{
+  top: 2.813rem;
+  left: 80px;
+  width: 200px;
+}
+
+.headphone-div :first-child, .discount-content
+  {
+    display: none;
+  }
 }
