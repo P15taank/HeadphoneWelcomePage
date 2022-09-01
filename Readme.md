@@ -11,8 +11,8 @@
 ### Mobile Responsive
 ![Responsive](./images/mobile.gif)
 ## What I have learn in this project
-- Learned flex box all conceps and tried to implement it in this project
-- Learn about Media Query.
+- Learnt about flex box and its properties and tried to implement it in this project
+- Leart about Media Query.
 ## Time Spent
 I spent 4 hours to complete this project
 ## Live Link
